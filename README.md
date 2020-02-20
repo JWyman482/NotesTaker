@@ -2,7 +2,7 @@
 AWS-enabled note taking application. Front-end is a Vue.JS application using Vuetify with a RESTful API call to AWS API Gateway, which then calls a Lambda function. The Lambda function controls actions in an AWS RDS MySQL database.
 
 ## Front-End
-[Vue.JS]https://vuejs.org/ with [Vuetify]https://vuetifyjs.com/en/ is used for the front-end. The site materials are hosted in an S3 bucket. The site uses an async fetch request to call API Gateway, which then activates a lambda that updates the database at Amazon RDS.
+[Vue.JS](https://vuejs.org/) with [Vuetify](https://vuetifyjs.com/en/) is used for the front-end. The site materials are hosted in an S3 bucket. The site uses an async fetch request to call API Gateway, which then activates a lambda that updates the database at Amazon RDS.
 
 
 ## API
