@@ -38,19 +38,30 @@
     </v-app-bar>
 
     <v-content>
-      <dark></dark>
+      <v-app-bar app clipped-left>
+        <v-toolbar-title class="green--text">NoteTaker</v-toolbar-title>
+      </v-app-bar>
+
+      <div class="" style="width: 500px; margin: auto;">
+        <Note/>
+      </div>
+
+      <v-footer app>
+          <span>&copy; 2019 - Layout Components from Vuetify</span>
+      </v-footer>
+
     </v-content>
   </v-app>
 </template>
 
 <script>
-import dark from './components/dark';
+import Note from "./components/Note.vue"
 
 export default {
   name: 'App',
 
   components: {
-    dark,
+    Note
   },
 
   data: () => ({

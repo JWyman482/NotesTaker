@@ -36,6 +36,7 @@
                     </v-tabs>
 
                 </div>
+                <div class="cardsWrap">
                 <v-card
                     dark
                     max-width="344"
@@ -51,6 +52,7 @@
                         ID: {{row.item_id}}
                     </v-card-text>
                 </v-card>
+                </div>
             </div>
 
         </v-content>
