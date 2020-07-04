@@ -38,11 +38,15 @@ export default {
         item_id: null,
     }),
     methods: {
-        makeReq: () => {
+        makeReq() {
                  
                 var reqdata = {};
+                
+                console.log("Inside makeReq.");
+                console.log(this.items[0]);
 
                 reqdata["action"] = this.items[this.tab];
+                console.log("Inside makeReq in NoteInput");
 
                 // INSERT
                 if (this.tab == 0) {
