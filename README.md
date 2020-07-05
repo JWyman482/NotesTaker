@@ -35,3 +35,6 @@ Default: Requires "item_id": "####", "name": "xxxxxxx" where # is the id of the 
 "name": "xxxxxxx"
 }
 ```
+
+## Backend
+App sends a RESTful API request as shown above to a lambda function. The lambda hits the MySQL RDS instance in the VPC. The MySQL RDS instance is set to not be publicly accessible (no public ip). There's an EC2 instance 
